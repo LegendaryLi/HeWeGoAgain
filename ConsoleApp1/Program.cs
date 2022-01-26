@@ -8,8 +8,11 @@ namespace ConsoleApp1
 {
     internal class Program
     {
-        static void Main(string[] args)
+        public int EntryB()
         {
+            int b = 0;
+            b = Convert.ToInt32(Console.ReadLine());
+            return b;
         }
     }
 }
